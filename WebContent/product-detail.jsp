@@ -1,7 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" contentType="text/jsp; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE jsp>
+<jsp lang="en">
 <head>
 	<title>Product Detail</title>
 	<meta charset="UTF-8">
@@ -55,38 +55,38 @@
 					<div class="menu-desktop">
 						<ul class="main-menu">
 							<li>
-								<a href="index.html">Home</a>
+								<a href="index.jsp">Home</a>
 								<!-- <ul class="sub-menu">
-									<li><a href="index.html">Homepage 1</a></li>
+									<li><a href="index.jsp">Homepage 1</a></li>
 								</ul> -->
 							</li>
 
 							<li>
-								<a href="product.html">Rank</a>
+								<a href="product.jsp">Rank</a>
 							</li>
 
 							<li>
-								<a href="product.html">Band</a>
+								<a href="product.jsp">Band</a>
 							</li>
 
 							<li>
-								<a href="product.html">Store</a>
+								<a href="product.jsp">Store</a>
 							</li>
 
 							<!-- <li class="label1" data-label1="hot">
-								<a href="shoping-cart.html">Features</a>
+								<a href="shoping-cart.jsp">Features</a>
 							</li> -->
 
 							<li>
-								<a href="blog.html">Magazine</a>
+								<a href="blog.jsp">Magazine</a>
 							</li>
 <!-- 
 							<li>
-								<a href="about.html">About</a>
+								<a href="about.jsp">About</a>
 							</li> -->
 
 							<li>
-								<a href="contact.html">Contact</a>
+								<a href="contact.jsp">Contact</a>
 							</li>
 						</ul>
 					</div>	
@@ -113,7 +113,7 @@
 		<div class="wrap-header-mobile">
 			<!-- Logo moblie -->		
 			<div class="logo-mobile">
-				<a href="index.html"><img src="images/icons/logo-01.png" alt="IMG-LOGO"></a>
+				<a href="index.jsp"><img src="images/icons/logo-01.png" alt="IMG-LOGO"></a>
 			</div>
 
 			<!-- Icon header -->
@@ -138,11 +138,11 @@
 		<div class="menu-mobile">
 			<ul class="main-menu-m">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="index.jsp">Home</a>
 					<ul class="sub-menu-m">
-						<li><a href="index.html">Homepage 1</a></li>
-						<li><a href="home-02.html">Homepage 2</a></li>
-						<li><a href="home-03.html">Homepage 3</a></li>
+						<li><a href="index.jsp">Homepage 1</a></li>
+						<li><a href="home-02.jsp">Homepage 2</a></li>
+						<li><a href="home-03.jsp">Homepage 3</a></li>
 					</ul>
 					<span class="arrow-main-menu-m">
 						<i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -150,23 +150,23 @@
 				</li>
 
 				<li>
-					<a href="product.html">Shop</a>
+					<a href="product.jsp">Shop</a>
 				</li>
 
 				<li>
-					<a href="shoping-cart.html" class="label1 rs1" data-label1="hot">Features</a>
+					<a href="shoping-cart.jsp" class="label1 rs1" data-label1="hot">Features</a>
 				</li>
 
 				<li>
-					<a href="blog.html">Blog</a>
+					<a href="blog.jsp">Blog</a>
 				</li>
 
 				<li>
-					<a href="about.html">About</a>
+					<a href="about.jsp">About</a>
 				</li>
 
 				<li>
-					<a href="contact.html">Contact</a>
+					<a href="contact.jsp">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -204,7 +204,7 @@
 			<div class="sidebar-content flex-w w-full p-lr-65 js-pscroll">
 				<ul class="sidebar-link w-full">
 					<li class="p-b-13">
-						<a href="index.html" class="stext-102 cl2 hov-cl1 trans-04">
+						<a href="index.jsp" class="stext-102 cl2 hov-cl1 trans-04">
 							Home
 						</a>
 					</li>
@@ -388,11 +388,11 @@
 					</div>
 
 					<div class="header-cart-buttons flex-w w-full">
-						<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
+						<a href="shoping-cart.jsp" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
 							View Cart
 						</a>
 
-						<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
+						<a href="shoping-cart.jsp" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
 							Check Out
 						</a>
 					</div>
@@ -421,7 +421,7 @@
 							</div>
 								
 							<div class="layer-slick1 animated visible-false" data-appear="zoomIn" data-delay="1600">
-								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+								<a href="product.jsp" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn2 p-lr-15 trans-04">
 									Shop Now
 								</a>
 							</div>
@@ -445,7 +445,7 @@
 							</div>
 								
 							<div class="layer-slick1 animated visible-false" data-appear="slideInUp" data-delay="1600">
-								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+								<a href="product.jsp" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn2 p-lr-15 trans-04">
 									Shop Now
 								</a>
 							</div>
@@ -469,7 +469,7 @@
 							</div>
 								
 							<div class="layer-slick1 animated visible-false" data-appear="rotateIn" data-delay="1600">
-								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+								<a href="product.jsp" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn2 p-lr-15 trans-04">
 									Shop Now
 								</a>
 							</div>
@@ -515,11 +515,11 @@
 
 			<ul class="main-menu-m">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="index.jsp">Home</a>
 					<ul class="sub-menu-m">
-						<li><a href="index.html">Homepage 1</a></li>
-						<li><a href="home-02.html">Homepage 2</a></li>
-						<li><a href="home-03.html">Homepage 3</a></li>
+						<li><a href="index.jsp">Homepage 1</a></li>
+						<li><a href="home-02.jsp">Homepage 2</a></li>
+						<li><a href="home-03.jsp">Homepage 3</a></li>
 					</ul>
 					<span class="arrow-main-menu-m">
 						<i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -527,23 +527,23 @@
 				</li>
 
 				<li>
-					<a href="product.html">Shop</a>
+					<a href="product.jsp">Shop</a>
 				</li>
 
 				<li>
-					<a href="shoping-cart.html" class="label1 rs1" data-label1="hot">Features</a>
+					<a href="shoping-cart.jsp" class="label1 rs1" data-label1="hot">Features</a>
 				</li>
 
 				<li>
-					<a href="blog.html">Blog</a>
+					<a href="blog.jsp">Blog</a>
 				</li>
 
 				<li>
-					<a href="about.html">About</a>
+					<a href="about.jsp">About</a>
 				</li>
 
 				<li>
-					<a href="contact.html">Contact</a>
+					<a href="contact.jsp">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -637,11 +637,11 @@
 					</div>
 
 					<div class="header-cart-buttons flex-w w-full">
-						<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
+						<a href="shoping-cart.jsp" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
 							View Cart
 						</a>
 
-						<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
+						<a href="shoping-cart.jsp" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
 							Check Out
 						</a>
 					</div>
@@ -654,12 +654,12 @@
 	<!-- breadcrumb -->
 	<div class="container">
 		<div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
-			<a href="index.html" class="stext-109 cl8 hov-cl1 trans-04">
+			<a href="index.jsp" class="stext-109 cl8 hov-cl1 trans-04">
 				Home
 				<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
 			</a>
 
-			<a href="product.html" class="stext-109 cl8 hov-cl1 trans-04">
+			<a href="product.jsp" class="stext-109 cl8 hov-cl1 trans-04">
 				Men
 				<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
 			</a>
@@ -1027,7 +1027,7 @@
 
 							<div class="block2-txt flex-w flex-t p-t-14">
 								<div class="block2-txt-child1 flex-col-l ">
-									<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+									<a href="product-detail.jsp" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 										Esprit Ruffle Shirt
 									</a>
 
@@ -1059,7 +1059,7 @@
 
 							<div class="block2-txt flex-w flex-t p-t-14">
 								<div class="block2-txt-child1 flex-col-l ">
-									<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+									<a href="product-detail.jsp" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 										Herschel supply
 									</a>
 
@@ -1091,7 +1091,7 @@
 
 							<div class="block2-txt flex-w flex-t p-t-14">
 								<div class="block2-txt-child1 flex-col-l ">
-									<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+									<a href="product-detail.jsp" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 										Only Check Trouser
 									</a>
 
@@ -1123,7 +1123,7 @@
 
 							<div class="block2-txt flex-w flex-t p-t-14">
 								<div class="block2-txt-child1 flex-col-l ">
-									<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+									<a href="product-detail.jsp" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 										Classic Trench Coat
 									</a>
 
@@ -1155,7 +1155,7 @@
 
 							<div class="block2-txt flex-w flex-t p-t-14">
 								<div class="block2-txt-child1 flex-col-l ">
-									<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+									<a href="product-detail.jsp" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 										Front Pocket Jumper
 									</a>
 
@@ -1187,7 +1187,7 @@
 
 							<div class="block2-txt flex-w flex-t p-t-14">
 								<div class="block2-txt-child1 flex-col-l ">
-									<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+									<a href="product-detail.jsp" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 										Vintage Inspired Classic 
 									</a>
 
@@ -1219,7 +1219,7 @@
 
 							<div class="block2-txt flex-w flex-t p-t-14">
 								<div class="block2-txt-child1 flex-col-l ">
-									<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+									<a href="product-detail.jsp" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 										Shirt in Stretch Cotton
 									</a>
 
@@ -1251,7 +1251,7 @@
 
 							<div class="block2-txt flex-w flex-t p-t-14">
 								<div class="block2-txt-child1 flex-col-l ">
-									<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+									<a href="product-detail.jsp" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 										Pieces Metallic Printed
 									</a>
 
@@ -1634,7 +1634,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		});
 
 		$('.js-addwish-b2').each(function(){
-			var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
+			var nameProduct = $(this).parent().parent().find('.js-name-b2').jsp();
 			$(this).on('click', function(){
 				swal(nameProduct, "is added to wishlist !", "success");
 
@@ -1644,7 +1644,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		});
 
 		$('.js-addwish-detail').each(function(){
-			var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
+			var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').jsp();
 
 			$(this).on('click', function(){
 				swal(nameProduct, "is added to wishlist !", "success");
@@ -1657,7 +1657,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		/*---------------------------------------------*/
 
 		$('.js-addcart-detail').each(function(){
-			var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
+			var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').jsp();
 			$(this).on('click', function(){
 				swal(nameProduct, "is added to cart !", "success");
 			});
@@ -1685,4 +1685,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/main.js"></script>
 
 </body>
-</html>
+</jsp>
