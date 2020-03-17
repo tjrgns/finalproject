@@ -3,7 +3,6 @@
 
 <!doctype html>
 <html lang="en">
-
  
 <head>
     <!-- Required meta tags -->
@@ -14,9 +13,12 @@
     <link href="/brocoli/resource/assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
     <link rel="stylesheet" href="/brocoli/resource/assets/libs/css/style.css">
     <link rel="stylesheet" href="/brocoli/resource/assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
-        <!-- 헤더 인클루드 -->
-    <%@ include file="/WEB-INF/ownerPage/header.jsp" %>
-    <title>오너페이지 : 프로필</title>
+    <link rel="stylesheet" href="/brocoli/resource/assets/vendor/charts/chartist-bundle/chartist.css">
+    <link rel="stylesheet" href="/brocoli/resource/assets/vendor/charts/morris-bundle/morris.css">
+    <link rel="stylesheet" href="/brocoli/resource/assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="/brocoli/resource/assets/vendor/charts/c3charts/c3.css">
+    <link rel="stylesheet" href="/brocoli/resource/assets/vendor/fonts/flag-icon-css/flag-icon.min.css">
+   
 </head>
 
 <body>
@@ -24,7 +26,7 @@
     <!-- main wrapper -->
     <!-- ============================================================== -->
     <div class="dashboard-main-wrapper">
-       <!-- ============================================================== -->
+        <!-- ============================================================== -->
         <!-- navbar -->
         <!-- ============================================================== -->
         <div class="dashboard-header">
@@ -270,7 +272,7 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/datepicker.html">Date Picker</a>
                                         </li>
-                                         <li class="nav-item">
+                                        <li class="nav-item">
                                             <a class="nav-link" href="pages/bootstrap-select.html">Bootstrap Select</a>
                                         </li>
                                     </ul>
@@ -338,7 +340,6 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/color-picker.html">Color Picker</a>
                                         </li>
-                                        
                                     </ul>
                                 </div>
                             </li>
@@ -433,11 +434,13 @@
         <!-- ============================================================== -->
         <!-- end left sidebar -->
         <!-- ============================================================== -->
-
-     
+  
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper  -->
     <!-- ============================================================== -->
     <!-- Optional JavaScript -->
-    <!-- jquery 3.3.1  -->
+    <!-- jquery 3.3.1 -->
     <script src="/brocoli/resource/assets/vendor/jquery/jquery-3.3.1.min.js"></script>
     <!-- bootstap bundle js -->
     <script src="/brocoli/resource/assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
@@ -445,7 +448,18 @@
     <script src="/brocoli/resource/assets/vendor/slimscroll/jquery.slimscroll.js"></script>
     <!-- main js -->
     <script src="/brocoli/resource/assets/libs/js/main-js.js"></script>
-   
+    <!-- chart chartist js -->
+    <script src="/brocoli/resource/assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
+    <!-- sparkline js -->
+    <script src="/brocoli/resource/assets/vendor/charts/sparkline/jquery.sparkline.js"></script>
+    <!-- morris js -->
+    <script src="/brocoli/resource/assets/vendor/charts/morris-bundle/raphael.min.js"></script>
+    <script src="/brocoli/resource/assets/vendor/charts/morris-bundle/morris.js"></script>
+    <!-- chart c3 js -->
+    <script src="/brocoli/resource/assets/vendor/charts/c3charts/c3.min.js"></script>
+    <script src="/brocoli/resource/assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
+    <script src="/brocoli/resource/assets/vendor/charts/c3charts/C3chartjs.js"></script>
+    <script src="/brocoli/resource/assets/libs/js/dashboard-ecommerce.js"></script>
 </body>
  
 </html>
