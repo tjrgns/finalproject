@@ -6,7 +6,7 @@
 	<title>About</title>
 	
 <%@ include file="common/header.jsp" %>
-<%@ include file="common/cart.jsp" %>
+<%@ include file="common/cart.jsp" %> 
 <%@ include file="common/sidebar.jsp" %>
 
 <link rel="stylesheet" type="text/css" href="/brocoli/css/mypage.css">
