@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
 	<title>About</title>
-	tettetette
+
 <%@ include file="common/header.jsp" %>
 <%@ include file="common/cart.jsp" %> 
 <%@ include file="common/sidebar.jsp" %>

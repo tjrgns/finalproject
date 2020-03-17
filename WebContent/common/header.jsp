@@ -89,7 +89,7 @@
 							</li>
 
 							<li>
-								<a href="product.jsp">RANK</a>
+								<a href="rank.jsp">RANK</a>
 							</li>
 
 							<li class="label1" data-label1="hot">
@@ -97,7 +97,7 @@
 							</li>
 
 							<li>
-								<a href="blog.jsp">SHOP</a>
+								<a href="product.jsp">SHOP</a>
 							</li>
 
 							<li class="active-menu">
