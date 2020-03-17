@@ -9,6 +9,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-		<jsp:forward page="WEB-INF/ownerPage/main.jsp"/>
+		<jsp:forward page="/ownerPage/main.jsp"/>
 </body>
 </html>
