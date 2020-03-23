@@ -44,7 +44,7 @@
                         <div class="mypage-member-info">
                             <div class="member-id-container cd_clear">
                                 <div class="group-image">
-                                    <img src="../BroColi/images/376451_1.jpg" alt="이미지">
+                                    <img src="../brocoli/images/icons/mypage_dia.jpg" alt="이미지">
                                 </div class="test2">
                                 <p>안녕하세요.
                                     <span class="id">김주희</span> 님
@@ -77,8 +77,7 @@
                     <!-- mypage menu list section-->
                     <div class="mypage-menu-container">
                         <ul class="mypage-menu-list">
-                            <li class="my-info">
-                            <img src="../BroColi/images/mypage_me.png/" alt="이미지">
+                            <li class="my-info" url="/brocoli/images/mypage_me.png">
                                 <a href="">
                                     <h4>개인정보관리</h4>
                                     <p>
@@ -88,8 +87,7 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="order-list">
-                            <img src="../BroColi/images/mypage_">
+                            <li class="order-list" url="../brocoli/images/mypage_">
                                 <a href="">
                                     <h4>주문상품관리</h4>
                                     <p>"주문한 상품을 하는데"
@@ -98,8 +96,7 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="wish-list">
-                            <img src="../BroColi/images/mypage_like">
+                            <li class="wish-list" url="../brocoli/images/mypage_like">
                                 <a href="">
                                     <h4>관심상품관리</h4>
                                     <p>"내가 찜 해둔 상품을"
@@ -108,8 +105,8 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="reserve-deposit">
-                            <img src="../BroColi/images/mypage_save1.png">
+                            <li class="reserve-deposit" url="../brocoli/images/mypage_save1.png">
+                           
                                 <a href="">
                                     <h4>적립금</h4>
                                     <p>"적립금을"
@@ -118,8 +115,7 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="my-article" img="../BroColi/images/write.png">
-                            <img src="../BroColi/images/write.png">
+                            <li class="my-article" url="../brocoli/images/write.png">
                                 <a href="">
                                     <h4>내가 쓴 글 보기</h4>
                                     <p>"주문관련문의, 상품후기 등"

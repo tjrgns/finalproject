@@ -248,13 +248,13 @@
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.my-info > a {
-	background-image: url('../img/icon/icon_mypage_menu_myinfo.png');
+	background-image: url('/brocoli/images/mypage_me.png');
 	background-size: 55px 55px;
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.my-info:hover > a,
 .mypage .mypage-menu-container .mypage-menu-list > li.my-info.selected > a {
-	background-image: url('../img/icon/icon_mypage_menu_myinfo_on.png');
+	background-image: url('/brocoli/images/mypage_me.png');
 }
 
 .mypage .mypage-menu-container .mypage-menu-list > li.order-list > a {
