@@ -77,7 +77,8 @@
                     <!-- mypage menu list section-->
                     <div class="mypage-menu-container">
                         <ul class="mypage-menu-list">
-                            <li class="my-info" img="../images/icon/">
+                            <li class="my-info">
+                            <img src="../BroColi/images/mypage_me.png/" alt="이미지">
                                 <a href="">
                                     <h4>개인정보관리</h4>
                                     <p>
@@ -88,6 +89,7 @@
                                 </a>
                             </li>
                             <li class="order-list">
+                            <img src="../BroColi/images/mypage_">
                                 <a href="">
                                     <h4>주문상품관리</h4>
                                     <p>"주문한 상품을 하는데"
@@ -97,6 +99,7 @@
                                 </a>
                             </li>
                             <li class="wish-list">
+                            <img src="../BroColi/images/mypage_like">
                                 <a href="">
                                     <h4>관심상품관리</h4>
                                     <p>"내가 찜 해둔 상품을"
@@ -106,6 +109,7 @@
                                 </a>
                             </li>
                             <li class="reserve-deposit">
+                            <img src="../BroColi/images/mypage_save1.png">
                                 <a href="">
                                     <h4>적립금</h4>
                                     <p>"적립금을"
@@ -114,7 +118,8 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="my-article" img="icons/내가.png">
+                            <li class="my-article" img="../BroColi/images/write.png">
+                            <img src="../BroColi/images/write.png">
                                 <a href="">
                                     <h4>내가 쓴 글 보기</h4>
                                     <p>"주문관련문의, 상품후기 등"
